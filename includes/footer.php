@@ -2,10 +2,10 @@
     <div class="container py-4">
         <div class="row">
             <div class="col-md-6">
-                <p>&copy; 2024 Complaint Management System</p>
+                <p>&copy; 2025 Complaint Management System</p>
             </div>
             <div class="col-md-6 text-right">
-                <p>Developed by Your Name</p>
+                <p>Developed by Evans Okumu Jela</p>
             </div>
         </div>
     </div>

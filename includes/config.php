@@ -5,6 +5,15 @@ $db   = 'complaint_db';
 $user = 'root';
 $pass = '';
 $charset = 'utf8mb4';
+//sanitization of inputs
+function sanitize_input($data) {
+    if (is_array($data)) {
+        return array_map('sanitize_input', $data);
+    }
+    return htmlspecialchars(trim($data), ENT_QUOTES | ENT_HTML5, 'UTF-8');
+}
+
+//connecting to database
 
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
 $options = [
