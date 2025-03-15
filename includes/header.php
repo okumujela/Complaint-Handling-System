@@ -13,7 +13,7 @@ require_once __DIR__ . '/config.php';
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
-        <a class="navbar-brand" href="../index.php">Complaint Management System</a>
+        <a class="navbar-brand" href="index.php">Complaint Management System</a>
         <div class="collapse navbar-collapse">
             <ul class="navbar-nav ml-auto">
                 <?php if (is_logged_in()): ?>

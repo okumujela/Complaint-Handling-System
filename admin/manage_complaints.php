@@ -1,5 +1,5 @@
 <?php
-require_once '../../config.php';
+require_once '../includes/config.php';
 redirect_if_not_logged_in();
 
 if (!in_array(get_user_role(), ['super_admin', 'manager'])) {
